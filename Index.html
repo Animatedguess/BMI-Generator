@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Hello Everyone;</h1>
+    <div class="divText">
+        <label>Note:</label>
+        <marquee behavior="scroll" direction="right">This is my second JavaScript Project "BMI Generator"</marquee>
+    </div>
+
+    <div class="divText">
+        <label style="margin-top: 15px;">Describe:</label>
+        <p>The BMI generator project uses JavaScript, HTML, and CSS to create a simple tool that calculates Body Mass
+            Index (BMI) based on user inputs of weight and height. The HTML structure provides input fields for weight
+            and height, styled with CSS for a user-friendly interface. JavaScript handles the logic, taking the input
+            values, performing the BMI calculation, and displaying the result dynamically on the page. The project
+            emphasizes responsiveness and accessibility, ensuring it works smoothly on various devices. Overall, it's a
+            compact yet effective application demonstrating frontend development skills and practical use of BMI
+            calculations in healthcare or fitness contexts.</p>
+    </div>
+    <h3>BMI Generator Enter your inputs here,</h3>
+
+    <!-- All inputs in html code -->
+    <form action="" id="form">
+        <div class="div">
+            <label class="label">
+                Enter your Weight:
+            </label>
+            <input type="number" id="Weight" class="input">
+        </div>
+        <br>
+        <div class="div">
+            <label class="label">
+                Enter your Height:
+            </label>
+            <input type="text" id="Height" class="input">
+        </div>
+        <br>
+        <div class="divButton">
+            <button type="submit" id="b1">Submit</button>
+            <button id="b2">Reset</button>
+        </div>
+        <br>
+        <h5 id="result"></h5>
+    </form>
+
+    <div id="Guide">
+        <h3>BMI WEIGHT GUIDE:-</h3>
+        <p id="g"></p>
+    </div>
+
+    <script src="Script.js">
+    </script>
+</body>
+
+</html>

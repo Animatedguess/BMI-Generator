@@ -1,0 +1,58 @@
+.div{
+    display: inline-flex;
+}
+.divText{
+    width: 91%;
+    display: inline-flex;
+    margin-left: 50px;
+}
+body{
+    background-color: black;
+    color: white;
+}
+h1{
+    text-align: center;
+}
+marquee{
+    background-color: lightsalmon;
+}
+form{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.input{
+    margin: 20px;
+}
+.label{
+    margin: 20px;
+}
+.divButton{
+    margin: 20px;
+}
+/* p{
+    width:91%;
+    margin-left: 50px;
+} */
+h3{
+    margin-left: 50px;
+}
+form{
+    margin-top: 20px;
+    margin-left: 90px;
+    border-color: green;
+    /* border: 20px;
+    padding: 20px; */
+}
+#result{
+    margin-top: 2px;
+    font-weight: bold;
+    font-size: xx-large;
+    margin-bottom: 10px;
+}
+#Guide{
+    margin-top:0px;
+    visibility:hidden;
+}
+#g{
+    margin-left: 60px;
+}
